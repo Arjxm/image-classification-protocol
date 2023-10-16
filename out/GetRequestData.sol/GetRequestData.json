@@ -1,0 +1,1873 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_spender",
+          "type": "address"
+        }
+      ],
+      "name": "allowance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "canGetVariables",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_data",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getAddressStorage",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCurrentVariables",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_data",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getUintStorage",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "allowance(address,address)": "dd62ed3e",
+    "balanceOf(address)": "70a08231",
+    "canGetVariables()": "c4dab317",
+    "getAddressStorage(bytes32)": "2a90bbb2",
+    "getCurrentVariables()": "a22e407a",
+    "getUintStorage(bytes32)": "afc3602b",
+    "totalSupply()": "18160ddd"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_spender\",\"type\":\"address\"}],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"canGetVariables\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_data\",\"type\":\"bytes32\"}],\"name\":\"getAddressStorage\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCurrentVariables\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_data\",\"type\":\"bytes32\"}],\"name\":\"getUintStorage\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/utils/GetRequestData.sol\":\"GetRequestData\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":forge-std/=node_modules/forge-std/\",\":hardhat/=node_modules/hardhat/\"]},\"sources\":{\"contracts/libraries/CoreFunctionsLib.sol\":{\"keccak256\":\"0xab02300e4daff9f85068c391af167287840c6a0a72e87de2e7be80e0ddf11d71\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://40a76f714c3caf4db9c000cfd5090ea2dfb029053a1e7c591ac0f151b81f0d75\",\"dweb:/ipfs/Qma1vFvSsfHLFxuBYqg52VHqFQCrk2ZuwbZrUTNfdVWBNs\"]},\"contracts/libraries/GetRequestDataLib.sol\":{\"keccak256\":\"0x0c0d221f5bd1c6313f720d1b3db447f7db225f2bab79b80610703404b29cf847\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ecd34f781b2f9a368b2ac7b75ed78ef3e56ae8a8049e3d3e56f2b0a82da747fe\",\"dweb:/ipfs/QmQRxFbF2DJTmYdDeAEnu19apv18wJ2zhGawDSTo1RP2dS\"]},\"contracts/libraries/RequestDataStorageLib.sol\":{\"keccak256\":\"0x0d896b3e672938be70f2aca52ef2f95ad8a2e94defd707cf0c81554c7db8d849\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4cede6efd2988443c685b726e0a350f78ae29006aed50434daec3b2956517fbd\",\"dweb:/ipfs/Qmd4XfBGQbvo7nzGiqodYw9f7mAtpVDJBWoBJd6tgxor4M\"]},\"contracts/libraries/TokenTransferLib.sol\":{\"keccak256\":\"0xc1c94b4a05c9901322dffa954936a4bed48f2fe6909df98d404b6e5b3b50cf89\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e94f76b3251d7b2887581b70069867d6030b12a94032de9a929b3ed3785d18fd\",\"dweb:/ipfs/QmNUJ4acysLVXFYN6UE4Pg4Wypqbqv6GEg8Vv2XFPgXT4A\"]},\"contracts/utils/GetRequestData.sol\":{\"keccak256\":\"0xaa25263eae71403dafbf9d0635acfa02884ac3ae98b026c6364d704944458ce1\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://b87cf2a5f7374577f0ed5b50c655a67947b4907a3b0f49cde4c84a768c502643\",\"dweb:/ipfs/QmS6qMNZpyu5amH1Az8w9PqFk4A8kMUQGAdgsWs6SxWn5U\"]},\"node_modules/@openzeppelin/contracts/utils/math/Math.sol\":{\"keccak256\":\"0xe4455ac1eb7fc497bb7402579e7b4d64d928b846fce7d2b6fde06d366f21c2b3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cc8841b3cd48ad125e2f46323c8bad3aa0e88e399ec62acb9e57efa7e7c8058c\",\"dweb:/ipfs/QmSqE4mXHA2BXW58deDbXE8MTcsL5JSKNDbm23sVQxRLPS\"]},\"node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x58b21219689909c4f8339af00813760337f7e2e7f169a97fe49e2896dcfb3b9a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ef8e012e946dec20e59f2d4446f4b44bb098f3fa8bac103b1b5112fff777447b\",\"dweb:/ipfs/QmVTooKWcLkJ9W68yNX4MgdrbAKiAXwuRN9A7f4NkdcdtQ\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "_spender",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "allowance",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "balanceOf",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "canGetVariables",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes32",
+              "name": "_data",
+              "type": "bytes32"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getAddressStorage",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getCurrentVariables",
+          "outputs": [
+            {
+              "internalType": "bytes32",
+              "name": "",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes32",
+              "name": "_data",
+              "type": "bytes32"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getUintStorage",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "totalSupply",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        "forge-std/=node_modules/forge-std/",
+        "hardhat/=node_modules/hardhat/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/utils/GetRequestData.sol": "GetRequestData"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/libraries/CoreFunctionsLib.sol": {
+        "keccak256": "0xab02300e4daff9f85068c391af167287840c6a0a72e87de2e7be80e0ddf11d71",
+        "urls": [
+          "bzz-raw://40a76f714c3caf4db9c000cfd5090ea2dfb029053a1e7c591ac0f151b81f0d75",
+          "dweb:/ipfs/Qma1vFvSsfHLFxuBYqg52VHqFQCrk2ZuwbZrUTNfdVWBNs"
+        ],
+        "license": "MIT"
+      },
+      "contracts/libraries/GetRequestDataLib.sol": {
+        "keccak256": "0x0c0d221f5bd1c6313f720d1b3db447f7db225f2bab79b80610703404b29cf847",
+        "urls": [
+          "bzz-raw://ecd34f781b2f9a368b2ac7b75ed78ef3e56ae8a8049e3d3e56f2b0a82da747fe",
+          "dweb:/ipfs/QmQRxFbF2DJTmYdDeAEnu19apv18wJ2zhGawDSTo1RP2dS"
+        ],
+        "license": "MIT"
+      },
+      "contracts/libraries/RequestDataStorageLib.sol": {
+        "keccak256": "0x0d896b3e672938be70f2aca52ef2f95ad8a2e94defd707cf0c81554c7db8d849",
+        "urls": [
+          "bzz-raw://4cede6efd2988443c685b726e0a350f78ae29006aed50434daec3b2956517fbd",
+          "dweb:/ipfs/Qmd4XfBGQbvo7nzGiqodYw9f7mAtpVDJBWoBJd6tgxor4M"
+        ],
+        "license": "MIT"
+      },
+      "contracts/libraries/TokenTransferLib.sol": {
+        "keccak256": "0xc1c94b4a05c9901322dffa954936a4bed48f2fe6909df98d404b6e5b3b50cf89",
+        "urls": [
+          "bzz-raw://e94f76b3251d7b2887581b70069867d6030b12a94032de9a929b3ed3785d18fd",
+          "dweb:/ipfs/QmNUJ4acysLVXFYN6UE4Pg4Wypqbqv6GEg8Vv2XFPgXT4A"
+        ],
+        "license": "MIT"
+      },
+      "contracts/utils/GetRequestData.sol": {
+        "keccak256": "0xaa25263eae71403dafbf9d0635acfa02884ac3ae98b026c6364d704944458ce1",
+        "urls": [
+          "bzz-raw://b87cf2a5f7374577f0ed5b50c655a67947b4907a3b0f49cde4c84a768c502643",
+          "dweb:/ipfs/QmS6qMNZpyu5amH1Az8w9PqFk4A8kMUQGAdgsWs6SxWn5U"
+        ],
+        "license": "UNLICENSED"
+      },
+      "node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+        "keccak256": "0xe4455ac1eb7fc497bb7402579e7b4d64d928b846fce7d2b6fde06d366f21c2b3",
+        "urls": [
+          "bzz-raw://cc8841b3cd48ad125e2f46323c8bad3aa0e88e399ec62acb9e57efa7e7c8058c",
+          "dweb:/ipfs/QmSqE4mXHA2BXW58deDbXE8MTcsL5JSKNDbm23sVQxRLPS"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
+        "keccak256": "0x58b21219689909c4f8339af00813760337f7e2e7f169a97fe49e2896dcfb3b9a",
+        "urls": [
+          "bzz-raw://ef8e012e946dec20e59f2d4446f4b44bb098f3fa8bac103b1b5112fff777447b",
+          "dweb:/ipfs/QmVTooKWcLkJ9W68yNX4MgdrbAKiAXwuRN9A7f4NkdcdtQ"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/utils/GetRequestData.sol",
+    "id": 1858,
+    "exportedSymbols": {
+      "CoreFunctionsLib": [
+        788
+      ],
+      "GetRequestData": [
+        1857
+      ],
+      "GetRequestDataLib": [
+        903
+      ],
+      "Math": [
+        2723
+      ],
+      "RequestDataStorageLib": [
+        1031
+      ],
+      "SafeMath": [
+        3035
+      ],
+      "TokenTransferLib": [
+        1294
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:1633:7",
+    "nodes": [
+      {
+        "id": 1738,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:7",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 1739,
+        "nodeType": "ImportDirective",
+        "src": "63:76:7",
+        "nodes": [],
+        "absolutePath": "node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "file": "../../node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1858,
+        "sourceUnit": 3036,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1740,
+        "nodeType": "ImportDirective",
+        "src": "140:48:7",
+        "nodes": [],
+        "absolutePath": "contracts/libraries/RequestDataStorageLib.sol",
+        "file": "../libraries/RequestDataStorageLib.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1858,
+        "sourceUnit": 1032,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1741,
+        "nodeType": "ImportDirective",
+        "src": "189:44:7",
+        "nodes": [],
+        "absolutePath": "contracts/libraries/GetRequestDataLib.sol",
+        "file": "../libraries/GetRequestDataLib.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1858,
+        "sourceUnit": 904,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1742,
+        "nodeType": "ImportDirective",
+        "src": "234:43:7",
+        "nodes": [],
+        "absolutePath": "contracts/libraries/TokenTransferLib.sol",
+        "file": "../libraries/TokenTransferLib.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1858,
+        "sourceUnit": 1295,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1743,
+        "nodeType": "ImportDirective",
+        "src": "278:43:7",
+        "nodes": [],
+        "absolutePath": "contracts/libraries/CoreFunctionsLib.sol",
+        "file": "../libraries/CoreFunctionsLib.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 1858,
+        "sourceUnit": 789,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 1857,
+        "nodeType": "ContractDefinition",
+        "src": "323:1348:7",
+        "nodes": [
+          {
+            "id": 1746,
+            "nodeType": "UsingForDirective",
+            "src": "362:27:7",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 1744,
+              "name": "SafeMath",
+              "nameLocations": [
+                "368:8:7"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 3035,
+              "src": "368:8:7"
+            },
+            "typeName": {
+              "id": 1745,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "381:7:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            }
+          },
+          {
+            "id": 1750,
+            "nodeType": "UsingForDirective",
+            "src": "394:71:7",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 1747,
+              "name": "GetRequestDataLib",
+              "nameLocations": [
+                "400:17:7"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 903,
+              "src": "400:17:7"
+            },
+            "typeName": {
+              "id": 1749,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 1748,
+                "name": "RequestDataStorageLib.RequestStorageStruct",
+                "nameLocations": [
+                  "422:21:7",
+                  "444:20:7"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 966,
+                "src": "422:42:7"
+              },
+              "referencedDeclaration": 966,
+              "src": "422:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage_ptr",
+                "typeString": "struct RequestDataStorageLib.RequestStorageStruct"
+              }
+            }
+          },
+          {
+            "id": 1754,
+            "nodeType": "UsingForDirective",
+            "src": "470:75:7",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 1751,
+              "name": "RequestDataStorageLib",
+              "nameLocations": [
+                "476:21:7"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 1031,
+              "src": "476:21:7"
+            },
+            "typeName": {
+              "id": 1753,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 1752,
+                "name": "RequestDataStorageLib.RequestStorageStruct",
+                "nameLocations": [
+                  "502:21:7",
+                  "524:20:7"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 966,
+                "src": "502:42:7"
+              },
+              "referencedDeclaration": 966,
+              "src": "502:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage_ptr",
+                "typeString": "struct RequestDataStorageLib.RequestStorageStruct"
+              }
+            }
+          },
+          {
+            "id": 1758,
+            "nodeType": "UsingForDirective",
+            "src": "550:70:7",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 1755,
+              "name": "TokenTransferLib",
+              "nameLocations": [
+                "556:16:7"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 1294,
+              "src": "556:16:7"
+            },
+            "typeName": {
+              "id": 1757,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 1756,
+                "name": "RequestDataStorageLib.RequestStorageStruct",
+                "nameLocations": [
+                  "577:21:7",
+                  "599:20:7"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 966,
+                "src": "577:42:7"
+              },
+              "referencedDeclaration": 966,
+              "src": "577:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage_ptr",
+                "typeString": "struct RequestDataStorageLib.RequestStorageStruct"
+              }
+            }
+          },
+          {
+            "id": 1762,
+            "nodeType": "UsingForDirective",
+            "src": "625:70:7",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 1759,
+              "name": "CoreFunctionsLib",
+              "nameLocations": [
+                "631:16:7"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 788,
+              "src": "631:16:7"
+            },
+            "typeName": {
+              "id": 1761,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 1760,
+                "name": "RequestDataStorageLib.RequestStorageStruct",
+                "nameLocations": [
+                  "652:21:7",
+                  "674:20:7"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 966,
+                "src": "652:42:7"
+              },
+              "referencedDeclaration": 966,
+              "src": "652:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage_ptr",
+                "typeString": "struct RequestDataStorageLib.RequestStorageStruct"
+              }
+            }
+          },
+          {
+            "id": 1765,
+            "nodeType": "VariableDeclaration",
+            "src": "701:47:7",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "data",
+            "nameLocation": "744:4:7",
+            "scope": 1857,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+              "typeString": "struct RequestDataStorageLib.RequestStorageStruct"
+            },
+            "typeName": {
+              "id": 1764,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 1763,
+                "name": "RequestDataStorageLib.RequestStorageStruct",
+                "nameLocations": [
+                  "701:21:7",
+                  "723:20:7"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 966,
+                "src": "701:42:7"
+              },
+              "referencedDeclaration": 966,
+              "src": "701:42:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage_ptr",
+                "typeString": "struct RequestDataStorageLib.RequestStorageStruct"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 1778,
+            "nodeType": "FunctionDefinition",
+            "src": "755:126:7",
+            "nodes": [],
+            "body": {
+              "id": 1777,
+              "nodeType": "Block",
+              "src": "828:53:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 1774,
+                        "name": "_data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1767,
+                        "src": "868:5:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      ],
+                      "expression": {
+                        "id": 1772,
+                        "name": "data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1765,
+                        "src": "845:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+                          "typeString": "struct RequestDataStorageLib.RequestStorageStruct storage ref"
+                        }
+                      },
+                      "id": 1773,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "850:17:7",
+                      "memberName": "getAddressStorage",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 811,
+                      "src": "845:22:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_RequestStorageStruct_$966_storage_ptr_$_t_bytes32_$returns$_t_address_$attached_to$_t_struct$_RequestStorageStruct_$966_storage_ptr_$",
+                        "typeString": "function (struct RequestDataStorageLib.RequestStorageStruct storage pointer,bytes32) view returns (address)"
+                      }
+                    },
+                    "id": 1775,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "845:29:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 1771,
+                  "id": 1776,
+                  "nodeType": "Return",
+                  "src": "838:36:7"
+                }
+              ]
+            },
+            "functionSelector": "2a90bbb2",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getAddressStorage",
+            "nameLocation": "764:17:7",
+            "parameters": {
+              "id": 1768,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1767,
+                  "mutability": "mutable",
+                  "name": "_data",
+                  "nameLocation": "790:5:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1778,
+                  "src": "782:13:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 1766,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "782:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "781:15:7"
+            },
+            "returnParameters": {
+              "id": 1771,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1770,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1778,
+                  "src": "819:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1769,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "819:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "818:9:7"
+            },
+            "scope": 1857,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 1791,
+            "nodeType": "FunctionDefinition",
+            "src": "888:120:7",
+            "nodes": [],
+            "body": {
+              "id": 1790,
+              "nodeType": "Block",
+              "src": "958:50:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 1787,
+                        "name": "_data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1780,
+                        "src": "995:5:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      ],
+                      "expression": {
+                        "id": 1785,
+                        "name": "data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1765,
+                        "src": "975:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+                          "typeString": "struct RequestDataStorageLib.RequestStorageStruct storage ref"
+                        }
+                      },
+                      "id": 1786,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "980:14:7",
+                      "memberName": "getUintStorage",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 827,
+                      "src": "975:19:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_RequestStorageStruct_$966_storage_ptr_$_t_bytes32_$returns$_t_uint256_$attached_to$_t_struct$_RequestStorageStruct_$966_storage_ptr_$",
+                        "typeString": "function (struct RequestDataStorageLib.RequestStorageStruct storage pointer,bytes32) view returns (uint256)"
+                      }
+                    },
+                    "id": 1788,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "975:26:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1784,
+                  "id": 1789,
+                  "nodeType": "Return",
+                  "src": "968:33:7"
+                }
+              ]
+            },
+            "functionSelector": "afc3602b",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getUintStorage",
+            "nameLocation": "897:14:7",
+            "parameters": {
+              "id": 1781,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1780,
+                  "mutability": "mutable",
+                  "name": "_data",
+                  "nameLocation": "920:5:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1791,
+                  "src": "912:13:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 1779,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "912:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "911:15:7"
+            },
+            "returnParameters": {
+              "id": 1784,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1783,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1791,
+                  "src": "949:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1782,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "949:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "948:9:7"
+            },
+            "scope": 1857,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 1807,
+            "nodeType": "FunctionDefinition",
+            "src": "1015:145:7",
+            "nodes": [],
+            "body": {
+              "id": 1806,
+              "nodeType": "Block",
+              "src": "1110:50:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 1802,
+                        "name": "data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1765,
+                        "src": "1127:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+                          "typeString": "struct RequestDataStorageLib.RequestStorageStruct storage ref"
+                        }
+                      },
+                      "id": 1803,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1132:19:7",
+                      "memberName": "getCurrentVariables",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 868,
+                      "src": "1127:24:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_RequestStorageStruct_$966_storage_ptr_$returns$_t_bytes32_$_t_uint256_$_t_uint256_$_t_string_memory_ptr_$attached_to$_t_struct$_RequestStorageStruct_$966_storage_ptr_$",
+                        "typeString": "function (struct RequestDataStorageLib.RequestStorageStruct storage pointer) view returns (bytes32,uint256,uint256,string memory)"
+                      }
+                    },
+                    "id": 1804,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1127:26:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bytes32_$_t_uint256_$_t_uint256_$_t_string_memory_ptr_$",
+                      "typeString": "tuple(bytes32,uint256,uint256,string memory)"
+                    }
+                  },
+                  "functionReturnParameters": 1801,
+                  "id": 1805,
+                  "nodeType": "Return",
+                  "src": "1120:33:7"
+                }
+              ]
+            },
+            "functionSelector": "a22e407a",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCurrentVariables",
+            "nameLocation": "1024:19:7",
+            "parameters": {
+              "id": 1792,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1043:2:7"
+            },
+            "returnParameters": {
+              "id": 1801,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1794,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1807,
+                  "src": "1068:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 1793,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1068:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1796,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1807,
+                  "src": "1077:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1795,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1077:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1798,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1807,
+                  "src": "1086:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1797,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1086:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1800,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1807,
+                  "src": "1095:13:7",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 1799,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1095:6:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1067:42:7"
+            },
+            "scope": 1857,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 1817,
+            "nodeType": "FunctionDefinition",
+            "src": "1166:101:7",
+            "nodes": [],
+            "body": {
+              "id": 1816,
+              "nodeType": "Block",
+              "src": "1221:46:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 1812,
+                        "name": "data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1765,
+                        "src": "1238:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+                          "typeString": "struct RequestDataStorageLib.RequestStorageStruct storage ref"
+                        }
+                      },
+                      "id": 1813,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1243:15:7",
+                      "memberName": "canGetVariables",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 886,
+                      "src": "1238:20:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_RequestStorageStruct_$966_storage_ptr_$returns$_t_bool_$attached_to$_t_struct$_RequestStorageStruct_$966_storage_ptr_$",
+                        "typeString": "function (struct RequestDataStorageLib.RequestStorageStruct storage pointer) view returns (bool)"
+                      }
+                    },
+                    "id": 1814,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1238:22:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 1811,
+                  "id": 1815,
+                  "nodeType": "Return",
+                  "src": "1231:29:7"
+                }
+              ]
+            },
+            "functionSelector": "c4dab317",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "canGetVariables",
+            "nameLocation": "1175:15:7",
+            "parameters": {
+              "id": 1808,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1190:2:7"
+            },
+            "returnParameters": {
+              "id": 1811,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1810,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1817,
+                  "src": "1215:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 1809,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1215:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1214:6:7"
+            },
+            "scope": 1857,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 1830,
+            "nodeType": "FunctionDefinition",
+            "src": "1309:112:7",
+            "nodes": [],
+            "body": {
+              "id": 1829,
+              "nodeType": "Block",
+              "src": "1375:46:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 1826,
+                        "name": "_owner",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1819,
+                        "src": "1407:6:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 1824,
+                        "name": "data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1765,
+                        "src": "1392:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+                          "typeString": "struct RequestDataStorageLib.RequestStorageStruct storage ref"
+                        }
+                      },
+                      "id": 1825,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1397:9:7",
+                      "memberName": "balanceOf",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1273,
+                      "src": "1392:14:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_RequestStorageStruct_$966_storage_ptr_$_t_address_$returns$_t_uint256_$attached_to$_t_struct$_RequestStorageStruct_$966_storage_ptr_$",
+                        "typeString": "function (struct RequestDataStorageLib.RequestStorageStruct storage pointer,address) view returns (uint256)"
+                      }
+                    },
+                    "id": 1827,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1392:22:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1823,
+                  "id": 1828,
+                  "nodeType": "Return",
+                  "src": "1385:29:7"
+                }
+              ]
+            },
+            "functionSelector": "70a08231",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "balanceOf",
+            "nameLocation": "1318:9:7",
+            "parameters": {
+              "id": 1820,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1819,
+                  "mutability": "mutable",
+                  "name": "_owner",
+                  "nameLocation": "1336:6:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1830,
+                  "src": "1328:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1818,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1328:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1327:16:7"
+            },
+            "returnParameters": {
+              "id": 1823,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1822,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1830,
+                  "src": "1366:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1821,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1366:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1365:9:7"
+            },
+            "scope": 1857,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 1846,
+            "nodeType": "FunctionDefinition",
+            "src": "1427:140:7",
+            "nodes": [],
+            "body": {
+              "id": 1845,
+              "nodeType": "Block",
+              "src": "1511:56:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 1841,
+                        "name": "_owner",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1832,
+                        "src": "1543:6:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "id": 1842,
+                        "name": "_spender",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1834,
+                        "src": "1551:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 1839,
+                        "name": "data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1765,
+                        "src": "1528:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+                          "typeString": "struct RequestDataStorageLib.RequestStorageStruct storage ref"
+                        }
+                      },
+                      "id": 1840,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1533:9:7",
+                      "memberName": "allowance",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1293,
+                      "src": "1528:14:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_RequestStorageStruct_$966_storage_ptr_$_t_address_$_t_address_$returns$_t_uint256_$attached_to$_t_struct$_RequestStorageStruct_$966_storage_ptr_$",
+                        "typeString": "function (struct RequestDataStorageLib.RequestStorageStruct storage pointer,address,address) view returns (uint256)"
+                      }
+                    },
+                    "id": 1843,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1528:32:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1838,
+                  "id": 1844,
+                  "nodeType": "Return",
+                  "src": "1521:39:7"
+                }
+              ]
+            },
+            "functionSelector": "dd62ed3e",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "allowance",
+            "nameLocation": "1436:9:7",
+            "parameters": {
+              "id": 1835,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1832,
+                  "mutability": "mutable",
+                  "name": "_owner",
+                  "nameLocation": "1454:6:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1846,
+                  "src": "1446:14:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1831,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1446:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1834,
+                  "mutability": "mutable",
+                  "name": "_spender",
+                  "nameLocation": "1470:8:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1846,
+                  "src": "1462:16:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1833,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1462:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1445:34:7"
+            },
+            "returnParameters": {
+              "id": 1838,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1837,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1846,
+                  "src": "1502:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1836,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1502:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1501:9:7"
+            },
+            "scope": 1857,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 1856,
+            "nodeType": "FunctionDefinition",
+            "src": "1573:96:7",
+            "nodes": [],
+            "body": {
+              "id": 1855,
+              "nodeType": "Block",
+              "src": "1627:42:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 1851,
+                        "name": "data",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 1765,
+                        "src": "1644:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_RequestStorageStruct_$966_storage",
+                          "typeString": "struct RequestDataStorageLib.RequestStorageStruct storage ref"
+                        }
+                      },
+                      "id": 1852,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "1649:11:7",
+                      "memberName": "totalSupply",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 902,
+                      "src": "1644:16:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_struct$_RequestStorageStruct_$966_storage_ptr_$returns$_t_uint256_$attached_to$_t_struct$_RequestStorageStruct_$966_storage_ptr_$",
+                        "typeString": "function (struct RequestDataStorageLib.RequestStorageStruct storage pointer) view returns (uint256)"
+                      }
+                    },
+                    "id": 1853,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "1644:18:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 1850,
+                  "id": 1854,
+                  "nodeType": "Return",
+                  "src": "1637:25:7"
+                }
+              ]
+            },
+            "functionSelector": "18160ddd",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "totalSupply",
+            "nameLocation": "1582:11:7",
+            "parameters": {
+              "id": 1847,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1593:2:7"
+            },
+            "returnParameters": {
+              "id": 1850,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1849,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1856,
+                  "src": "1618:7:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1848,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1618:7:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1617:9:7"
+            },
+            "scope": 1857,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": true,
+        "baseContracts": [],
+        "canonicalName": "GetRequestData",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          1857
+        ],
+        "name": "GetRequestData",
+        "nameLocation": "341:14:7",
+        "scope": 1858,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 7
+}

@@ -1,0 +1,133 @@
+sh -c 'FOUNDRY_PROFILE=ci forge script scripts/Deploy.s.sol   --rpc-url "https://rpc.dev.buildbear.io/arjun" --private-key "5f61ba1a9c46f64c7040211cb8ddf50d64fe8b91f3e8a5e45a5bfb627f22f48d" --etherscan-api-key "verifyContract" --verifier-url "https://rpc.dev.buildbear.io/verify/etherscan/arjun" -vvvv --broadcast --verify --slow' >> logs.log 2>&1
+Error: 
+[31mYou can only verify deployments from inside a project! Make sure it exists with `forge tree`.[0m
+error: Recipe `run-script` failed on line 16 with exit code 1
+sh -c 'FOUNDRY_PROFILE=ci forge script script/Deploy.s.sol   --rpc-url "https://rpc.dev.buildbear.io/arjun" --private-key "5f61ba1a9c46f64c7040211cb8ddf50d64fe8b91f3e8a5e45a5bfb627f22f48d" --etherscan-api-key "verifyContract" --verifier-url "https://rpc.dev.buildbear.io/verify/etherscan/arjun" -vvvv --broadcast --verify --slow' >> logs.log 2>&1
+No files changed, compilation skipped
+Traces:
+  [2063473] [32mDeploy[0m::[32mrun[0m() [33m[0m
+    ├─ [0] [34mVM[0m::[34mbroadcast[0m() [33m[0m
+    │   └─ [34m← [0m()
+    ├─ [1149594] [33m→ [0m[33mnew[0m CoreFunctions@0x87A41C1C05f540f269FaECE11D588d56e1f67C6B
+    │   └─ [32m← [0m5742 bytes of code
+    ├─ [0] [34mVM[0m::[34mbroadcast[0m() [33m[0m
+    │   └─ [34m← [0m()
+    ├─ [436314] [33m→ [0m[33mnew[0m CoreFunctionHelper@0x11e7d8A67878138EcB3ba159457c56e48b1a5f3B
+    │   └─ [32m← [0m1957 bytes of code
+    ├─ [0] [34mVM[0m::[34mbroadcast[0m() [33m[0m
+    │   └─ [34m← [0m()
+    ├─ [288168] [33m→ [0m[33mnew[0m Main@0x0CaE850689Fd6789935Fab2d2B15c2a5707EAf53
+    │   └─ [32m← [0m1217 bytes of code
+    └─ [32m← [0m()
+
+
+[32mScript ran successfully.[0m
+
+## Setting up (1) EVMs.
+==========================
+Simulated On-chain Traces:
+
+  [1292878] [33m→ [0m[33mnew[0m CoreFunctions@0x87A41C1C05f540f269FaECE11D588d56e1f67C6B
+    └─ [32m← [0m5742 bytes of code
+
+  [524298] [33m→ [0m[33mnew[0m CoreFunctionHelper@0x11e7d8A67878138EcB3ba159457c56e48b1a5f3B
+    └─ [32m← [0m1957 bytes of code
+
+  [362828] [33m→ [0m[33mnew[0m Main@0x0CaE850689Fd6789935Fab2d2B15c2a5707EAf53
+    └─ [32m← [0m1217 bytes of code
+
+
+==========================
+
+Chain 1
+
+Estimated gas price: 4.075757376 gwei
+
+Estimated total gas used for script: 2834004
+
+Estimated amount required: 0.011550712706613504 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 2].
+
+##### mainnet
+✅  [Success]Hash: 0x51a5ea4146a77130618a9214d91058484250371094954dd8aac279bf3643ed71
+Contract Address: 0x87A41C1C05f540f269FaECE11D588d56e1f67C6B
+Block: 18362176
+Paid: 0.004490629949181688 ETH (1292878 gas * 3.473359396 gwei)
+
+
+##### mainnet
+✅  [Success]Hash: 0xe755bb8e1082abf70860b5b61df3caaedc64df36b66fe07ced7c00781b9aeb3a
+Contract Address: 0x11e7d8A67878138EcB3ba159457c56e48b1a5f3B
+Block: 18362177
+Paid: 0.001792726613764524 ETH (524298 gas * 3.419289438 gwei)
+
+
+##### mainnet
+✅  [Success]Hash: 0xaf1814f51129e72b2a00b5508e432f5869cc1150b0a95ca6e0428e4ae4a048f9
+Contract Address: 0x0CaE850689Fd6789935Fab2d2B15c2a5707EAf53
+Block: 18362178
+Paid: 0.001222262383357116 ETH (362828 gas * 3.368710197 gwei)
+
+
+Transactions saved to: /home/arjun/HDD/BulidBearLabs/Playground/imageClassificationDapp/contracts/broadcast/Deploy.s.sol/1/run-latest.json
+
+Sensitive values saved to: /home/arjun/HDD/BulidBearLabs/Playground/imageClassificationDapp/contracts/cache_forge/Deploy.s.sol/1/run-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+Total Paid: 0.007505618946303328 ETH (2180004 gas * avg 3.42045301 gwei)
+##
+Start verification for (3) contracts
+Start verifying contract `0x87a41c1c05f540f269faece11d588d56e1f67c6b` deployed on mainnet
+
+Submitting verification for [contracts/utils/CoreFunctions.sol:CoreFunctions] "0x87A41C1C05f540f269FaECE11D588d56e1f67C6B".
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `a8cf0091747834e50971665e2c923dd53b98f99f64ba8591cc`
+	URL:
+        https://etherscan.io/address/0x87a41c1c05f540f269faece11d588d56e1f67c6b
+Contract verification status:
+Response: `OK`
+Details: `Pending in queue`
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+Start verifying contract `0x11e7d8a67878138ecb3ba159457c56e48b1a5f3b` deployed on mainnet
+
+Submitting verification for [contracts/utils/CoreFunctionHelper.sol:CoreFunctionHelper] "0x11e7d8A67878138EcB3ba159457c56e48b1a5f3B".
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `dbcef6d28da36fd6394684f63ab90a9a3259279a2b4f3db184`
+	URL:
+        https://etherscan.io/address/0x11e7d8a67878138ecb3ba159457c56e48b1a5f3b
+Contract verification status:
+Response: `OK`
+Details: `Fail - Unable to verify debug`
+Start verifying contract `0x0cae850689fd6789935fab2d2b15c2a5707eaf53` deployed on mainnet
+
+Submitting verification for [contracts/main/Main.sol:Main] "0x0CaE850689Fd6789935Fab2d2B15c2a5707EAf53".
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `62b984a27baa9918c54c4f4c22be5a4904c10149eb87cfcc5b`
+	URL:
+        https://etherscan.io/address/0x0cae850689fd6789935fab2d2b15c2a5707eaf53
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+All (3) contracts were verified!
+
+Transactions saved to: /home/arjun/HDD/BulidBearLabs/Playground/imageClassificationDapp/contracts/broadcast/Deploy.s.sol/1/run-latest.json
+
+Sensitive values saved to: /home/arjun/HDD/BulidBearLabs/Playground/imageClassificationDapp/contracts/cache_forge/Deploy.s.sol/1/run-latest.json
+
